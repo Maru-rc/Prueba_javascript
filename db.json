@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    }
+  ],
+  "functions": [
+    {
+      "id": "1",
+      "movie": "Dune: Part Two",
+      "room": "Sala A",
+      "date": "2026-06-20",
+      "startHour": "14:00",
+      "endHour": "16:30",
+      "totalCapacity": 100,
+      "availableSeats": 100,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "movie": "The Batman",
+      "room": "Sala B",
+      "date": "2026-06-21",
+      "startHour": "18:00",
+      "endHour": "21:00",
+      "totalCapacity": 80,
+      "availableSeats": 60,
+      "status": "active"
+    },
+    {
+      "movie": "Scary movie",
+      "room": "Sala D",
+      "date": "2026-06-10",
+      "startHour": "03:00",
+      "endHour": "05:00",
+      "totalCapacity": 15,
+      "availableSeats": 15,
+      "status": "active",
+      "id": "rpmtFkc895o"
+    },
+    {
+      "movie": "Los reyes del mundo",
+      "room": "Sala D",
+      "date": "2026-06-11",
+      "startHour": "08:30",
+      "endHour": "11:00",
+      "totalCapacity": 6,
+      "availableSeats": 0,
+      "status": "active",
+      "id": "qSD4G44gbKg"
+    }
+  ],
+  "reservations": [
+    {
+      "userId": "2",
+      "functionId": 2,
+      "tickets": 20,
+      "reservationDate": "2026-06-09",
+      "status": "confirmed",
+      "id": "rhIH7mXe_tg"
+    },
+    {
+      "userId": "3",
+      "functionId": "qSD4G44gbKg",
+      "tickets": 6,
+      "reservationDate": "2026-06-09",
+      "status": "confirmed",
+      "id": "Hx0yPKmODr8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
